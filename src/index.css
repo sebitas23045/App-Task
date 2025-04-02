@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.task-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.hover-scale {
+  @apply hover:scale-105 transition-transform;
+}
