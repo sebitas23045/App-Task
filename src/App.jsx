@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import TaskForm from './assets/components/TaskForm/TaskForm';
-import TaskList from './assets/components/TaskList/TaskList';
-import TaskFilter from './assets/components/TaskFilter/TaskFilter';
-import TaskStats from './assets/components/TaskStats/TaskStats';
+import TaskForm from './components/TaskForm/TaskForm';
+import TaskList from './components/TaskList/TaskList';
+import TaskFilter from './components/TaskFilter/TaskFilter';
+import TaskStats from './components/TaskStats/TaskStats';
 
 function App() {
   // Modelo de datos para cada tarea
