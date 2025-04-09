@@ -63,6 +63,8 @@ const TaskForm = ({ addTask, editingTask, updateTask }) => {
             type="text"
             id="title"
             value={title}
+            autoFocus
+            pattern='[A-Za-z0-9 ] {3,50}'
             onChange={(e) => setTitle(e.target.value)}
             placeholder="¿Qué necesitas hacer?"
             className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-sm"
